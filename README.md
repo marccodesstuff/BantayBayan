@@ -5,6 +5,10 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Platform](https://img.shields.io/badge/Platform-Android%20|%20iOS%20|%20Web-brightgreen)
 
+<p align="center">
+<img src="https://media.licdn.com/dms/image/v2/D562DAQERW6luJ-FzgQ/profile-treasury-image-shrink_800_800/B56ZtkUkSDG0AY-/0/1766914672827?e=1768035600&v=beta&t=f6rwxd_Vjf278DC1ee__smeYNykXqYJ8eW-NYPXC53g" />
+</p>
+
 *BantayBayan* is a comprehensive mobile application designed to assist communities in the Philippines during natural disasters, particularly floods and typhoons. The app provides real-time situational awareness, emergency guidance, and offline accessibility for critical safety information.
 
 ## 🎯 Key Features
@@ -42,6 +46,11 @@
 - *Data Synchronization*: Auto-sync when connectivity is restored
 
 ## 📋 Project Structure
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/c43ecf7e-fb21-4dac-b128-8379b7a8a2ba" />
+</p>
+
 ```text
 lib/
 ├── main.dart                        # App entry point
