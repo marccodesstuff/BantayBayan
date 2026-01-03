@@ -155,6 +155,8 @@ env
 
 ### AuthService
 Handles user authentication using Appwrite:
+
+```
 // Phone-based login
 await authService.createPhoneSession(phoneNumber);
 await authService.verifyPhoneCode(sessionId, code);
@@ -162,9 +164,12 @@ await authService.verifyPhoneCode(sessionId, code);
 // User management
 final user = authService.currentUser;
 await authService.logout();
+```
 
 ### ApiService
 Manages API calls to Appwrite backend:
+
+```
 // Get flood reports
 final reports = await ApiService.getReports();
 
@@ -173,9 +178,12 @@ await ApiService.submitReport(reportData);
 
 // Get weather data
 final weather = await ApiService.getCurrentWeather(lat, lon);
+```
 
 ### OfflineCacheService
 Manages offline data persistence:
+
+```
 // Cache map tiles
 await cacheService.cacheTilesForArea(center, radiusKm);
 
@@ -184,21 +192,28 @@ await cacheService.cacheRoute(start, end, coordinates);
 
 // Retrieve cached data
 final cachedTiles = await cacheService.getCachedTiles(bounds);
+```
 
 ### RoutingService
 Calculates routes using OSRM:
+
+```
 // Find primary route
 final route = await RoutingService.findRoute(start, destination);
 
 // Find alternative routes
 final routes = await RoutingService.findAlternativeRoutes(start, destination);
+```
 
 ### MLPredictionService
 Runs TensorFlow Lite models for flood prediction:
+
+```
 // Predict flood probability
 final prediction = await MLPredictionService.predictFloodProbability(
   latitude, longitude, rainfall
 );
+```
 
 ## 📱 Screens Overview
 
